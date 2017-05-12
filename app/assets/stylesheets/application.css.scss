@@ -55,6 +55,22 @@ h1,h2,h3 {
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+//using sass
+.navbar-default .navbar-toggle {
+  border : 2px solid white;
+   &:hover ,&:focus {
+    background-color: #00c6ff;
+  }
+  
+}
+
+
+
+
 //Home page Style
 .home-callout {
   color: white;
